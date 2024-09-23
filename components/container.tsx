@@ -1,12 +1,16 @@
-const Container = ({children}) => {
+interface props {
+    children:any;
+}
+
+const Container = ({children}:props) => {
     return (
-    <div className="w-full border border-slate-500 rounded-md p-5">
+    <div className="w-full bg-gray-50 border border-slate-500 rounded-md p-5 dark:bg-slate-800">
     {children}
     </div>
     );
 }
 
-const ContainerHead = ({children}) => {
+const ContainerHead = ({children}:props) => {
     return (
     <p className="text-3xl mb-5">
         {children}

@@ -9,21 +9,17 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "Events",
-      href: "/events",
-    },
-    {
-      label: "Blog",
-      href: "/blog",
-    },
-    {
-      label: "Contact",
-      href: "/contact",
+      label: "Blogs",
+      href: "/blogs",
     },
     {
       label: "About",
       href: "/about",
     },
+    {
+      label: "Contact Us",
+      href: "/contact",
+    }
   ], 
   links: {
     github: "https://github.com/nextui-org/nextui",

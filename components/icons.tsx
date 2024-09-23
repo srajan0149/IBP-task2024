@@ -10,11 +10,8 @@ export const Logo: React.FC<IconSvgProps> = ({
   <img
     src="/math_logo.webp"
     height={size || height}
-    viewBox="0 0 32 32"
     width={size || width}
-    style={{'border-radius':'18px'}}
-    {...props}
-  />
+    style={{borderRadius:'18px'}}></img>
 );
 
 export const DiscordIcon: React.FC<IconSvgProps> = ({

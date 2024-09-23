@@ -1,5 +1,12 @@
 import { tv } from "tailwind-variants";
 
+export const Divider = () => {
+  return (
+    <div className={`mt-1 mb-2 bg-cyan-700 w-2/12 h-1 rounded-full`}>
+    </div>
+  );
+}
+
 export const title = tv({
   base: "tracking-tight inline font-semibold",
   variants: {
