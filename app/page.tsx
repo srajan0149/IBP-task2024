@@ -25,10 +25,10 @@ export default function Home() {
     <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
     <Container>
         <ContainerHead>Featured Blogs</ContainerHead>
-        <Blog title={"The Joy of Numbers: Why Math Matters"} author={"Author"}>
+        <Blog href="#" title={"The Joy of Numbers: Why Math Matters"} author={"Author"}>
         When most people hear the word "math," they often think of tedious calculations or complex formulas. However, math is so much more than that! It’s a fascinating world filled with patterns, logic, and creativity. Here’s why embracing math can enrich our lives in unexpected ways.
         </Blog>
-        <Blog title={"Embracing the Beauty of Math"} author={"ChatGPT"}>
+        <Blog href="#" title={"Embracing the Beauty of Math"} author={"ChatGPT"}>
         Math often gets a bad rap. Many of us remember struggling with equations and feeling overwhelmed by numbers. But what if we took a step back and looked at math from a different perspective?
         </Blog>
    </Container>
